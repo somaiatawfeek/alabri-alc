@@ -1,0 +1,304 @@
+/**    link fonts    **/
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+body {
+  font-family: 'cairo', 'Poppins', sans-serif;
+
+  font-size: 14px;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+/* #272A3D */
+
+/******* start header ********/
+.header.collapse {
+  direction: rtl;
+
+
+
+}
+
+.offcanvas-body {
+  color: #887668;
+  font-weight: bold;
+  font-family: 'cairo', 'Poppins', sans-serif;
+
+}
+
+/******* end header ********/
+
+
+
+
+/******* start about us ********/
+/* .container {
+  position: relative;
+}
+
+.image-div {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.image-div img {
+  width: 100%;
+  height: auto;
+}
+
+.content-div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: brown;
+  color: white;
+  padding: 20px;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+   font-weight: bold;
+}
+ */
+
+ .background-div {
+  background-image: url("../images/1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 180vh;
+}
+
+.image-div {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+}
+ 
+
+.centered-text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 60px;
+}
+
+.company-info {
+
+  position: absolute;
+  top: 127%;
+  bottom: 0;
+  left: 0;
+  background-color: #BB8357;
+  color: white;
+  padding: 20px;
+  height: 500px;
+}
+
+.company-info p {
+direction: rtl;
+font-size: 15px;
+text-size-adjust: 1px;
+text-align: right;
+padding: 2px;
+
+}
+.company-info .do {
+  padding-top: 30px;
+}
+
+.company-info a {
+  direction: rtl;
+  color: #fff;
+  text-decoration: none;
+  margin: 150px;
+  font-size: 25px;
+  border-bottom: 2px solid white;
+
+  }
+  /* .underline{
+    text-decoration: underline;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+  } */
+
+
+
+
+
+
+/******* end main ********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******* start contact ********/
+
+
+.black-background {
+  background-color: #28293C;
+  padding: 0px;
+}
+
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info h2 {
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+
+.contact-info .doct h2 {
+  font-family: 'cairo';
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.contact-info h3 {
+  margin-bottom: 190px;
+  font-size: 35px;
+
+}
+
+.number_cont {
+  margin-left: 30%;
+  margin-right: 20%;
+
+
+}
+
+.contact-info .list {
+  direction: ltr;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.contact-info li a {
+
+  color: #887668;
+  text-decoration: none;
+}
+
+.contact-info li i {
+  margin-right: 10px;
+  color: #887668;
+}
+
+.number_cont .fax i {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 20%;
+  font-size: 15px;
+  background-color: transparent;
+
+}
+
+.number_cont .mobile i {
+  font-size: 35px;
+}
+
+.number_cont .phone i {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 20%;
+  font-size: 20px;
+
+}
+
+.links ul {
+  direction: ltr;
+  color: #887668;
+  text-decoration: none;
+
+}
+
+
+
+
+
+/******* end contact ********/
+
+
+
+
+
+
+/* start footer */
+
+
+
+
+footer {
+  background-color: #272A3D;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer_s {
+  margin-top: 30px;
+}
+
+footer .container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav li a {
+  font-size: 20px;
+  color: #887668;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+}
